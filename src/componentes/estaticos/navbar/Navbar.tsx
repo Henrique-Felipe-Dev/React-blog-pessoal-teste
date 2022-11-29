@@ -7,6 +7,7 @@ import './Navbar.css'
 function Navbar() {
     return (
         <>
+
             <AppBar position="static">
                 <Toolbar variant="dense">
                     <Box className='cursor' >
@@ -43,10 +44,12 @@ function Navbar() {
                                 </Typography>
                             </Box>
                         </Link>
+
                     </Box>
 
                 </Toolbar>
             </AppBar>
+
         </>
     )
 }
